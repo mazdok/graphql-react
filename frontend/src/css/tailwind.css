@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-sm {
+  @apply py-1 px-2;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.btn-gray {
+  @apply bg-gray-400 text-gray-800;
+}
+.btn-gray:hover {
+  @apply bg-gray-500;
+}
+
+.btn-purple {
+  @apply bg-purple-500 text-purple-800 text-white;
+}
+.btn-purple:hover {
+  @apply bg-purple-600;
+}
+
+@tailwind utilities;
+
+/* Global styles goes here */
